@@ -13,7 +13,7 @@ const Ratting = () => {
                     <p className='text-md'>Premium Tools</p>
                 </div>
                 <div className='text-center space-y-2'>
-                    <h1 className='text-5xl font-extrabold '></h1>
+                    <h1 className='text-5xl font-extrabold '>4.9</h1>
                     <p className='text-md'>Rating</p>
                 </div>
             </div>
