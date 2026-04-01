@@ -48,7 +48,7 @@ const Carts = ({ carts, setCarts }) => {
                                     <p className='font-bold'>Total:</p>
                                     <p className='font-bold text-xl'>$ {totalPrice}</p>
                                 </div>
-                                <button onClick={handlePayment} className='btn w-full font-bold text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>Proceed to Checkout</button>
+                                <button onClick={handlePayment} className='btn w-full font-bold text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>Proceed to </button>
                             </>
                         )
                 }
