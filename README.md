@@ -6,7 +6,7 @@ Technology that you use
 3 Features about your project.
 
 
-My project Name ~A6-DigiTools-Platform~
+My project Name -A6-DigiTools-Platform-
 
 This project is ai subcriptions how to access monthly and yearly. This project 8 card and 3 pricing card add. This projects how to card add and pay total payment working. This projects card dynamically create and pricing card also dynamically create.
 

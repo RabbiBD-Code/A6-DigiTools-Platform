@@ -10,7 +10,7 @@ const ReadySection = () => {
                 <div className='flex justify-center gap-4'>
                     <button className='btn rounded-full bg-white text-black'>Explore Products</button>
                     <div className='btn btn-outline text-white rounded-full ]'>
-                        Watch Demo
+                        Watch Dem
                     </div>
                 </div>
                 <p className='text-white'>14-day free trial • No credit card required • Cancel anytime</p>
