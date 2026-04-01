@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Basic resume builder for freshers with essential templates.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "FileText",
+    "img": "https://images.unsplash.com/photo-1586281380349-632531db7ed4"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS optimization tools.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Cover letter builder"
+    ],
+    "icon": "FileCheck",
+    "img": "https://images.unsplash.com/photo-1551836022-d5d88e9218df"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost Pack",
+    "description": "All-in-one package for resume, cover letter, and portfolio.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Portfolio builder",
+      "Resume + cover letter",
+      "Custom branding",
+      "Priority support"
+    ],
+    "icon": "Briefcase",
+    "img": "https://images.unsplash.com/photo-1521791136064-7986c2920216"
+  },
+  {
+    "id": 4,
+    "name": "Job Hunter Pro",
+    "description": "Tools to track job applications and optimize resumes.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Application tracking",
+      "Resume analytics",
+      "Email alerts",
+      "Interview tips"
+    ],
+    "icon": "Search",
+    "img": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  },
+  {
+    "id": 5,
+    "name": "Freelancer Portfolio Kit",
+    "description": "Create stunning portfolios to attract freelance clients.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Custom domains",
+      "Portfolio templates",
+      "Client showcase",
+      "SEO optimization"
+    ],
+    "icon": "Globe",
+    "img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+  },
+  {
+    "id": 6,
+    "name": "Ultimate Career Suite",
+    "description": "Complete toolkit for job seekers and professionals.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "All features included",
+      "Unlimited exports",
+      "Career coaching",
+      "LinkedIn optimization"
+    ],
+    "icon": "Crown",
+    "img": "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+  },
+  {
+    "id": 7,
+    "name": "Student Resume Pack",
+    "description": "Affordable resume tools designed for students.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Student templates",
+      "Internship tips",
+      "Easy editing",
+      "PDF export"
+    ],
+    "icon": "BookOpen",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644"
+  },
+  {
+    "id": 8,
+    "name": "Executive Pro Suite",
+    "description": "Premium tools for senior professionals and executives.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Executive templates",
+      "Personal branding",
+      "Advanced analytics",
+      "1-on-1 coaching"
+    ],
+    "icon": "UserStar",
+    "img": "https://images.unsplash.com/photo-1507679799987-c73779587ccf"
+  }
+]

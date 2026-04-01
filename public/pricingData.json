@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "description": "Perfect for beginners starting their journey.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Access to basic features",
+      "Email support",
+      "Limited storage",
+      "Single user"
+    ],
+    "img": "https://i.ibb.co/3sQ0Z5y/basic-plan.png"
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "description": "Best for growing users who need more features.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "All basic features",
+      "Priority email support",
+      "Increased storage",
+      "Up to 5 users"
+    ],
+    "img": "https://i.ibb.co/2kR7y5X/standard-plan.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "description": "Ideal for professionals and teams.",
+    "price": 50,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": [
+      "All standard features",
+      "24/7 support",
+      "Unlimited storage",
+      "Unlimited users"
+    ],
+    "img": "https://i.ibb.co/0jqHpnp/premium-plan.png"
+  }
+]
