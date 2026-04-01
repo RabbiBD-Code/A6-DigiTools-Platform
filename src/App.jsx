@@ -15,11 +15,11 @@ import ReadySection from './components/ReadySection/ReadySection'
 
 
 const getCards = async () =>{
-  const res = await fetch('/public/cardData.json')
+  const res = await fetch('/cardData.json')
   return res.json()
 }
 
-const pricingPromise = fetch("/public/pricingData.json").then(res => res.json())
+const pricingPromise = fetch("/pricingData.json").then(res => res.json())
   
 
 
