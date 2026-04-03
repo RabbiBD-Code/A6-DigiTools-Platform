@@ -40,17 +40,17 @@ console.log(carts)
       <Ratting />
       <Toggle/>
       {/* name of each tab group should be unique */}
-            <div className="tabs tabs-box my-7 border-none flex justify-center bg-transparent">
+            <div className="tabs gap-2 tabs-box my-7 flex justify-center bg-transparent">
                 <input type="radio" 
                 name="my_tabs_1" 
-                className={`tab rounded-full px-5 bg-slate-200 font-bold text-gray-600 ${activeCard === 'model'&& 'text-white bg-linear-to-r from-[#9514FA] to-[#4F39F6]'}`} 
+                className={`tab rounded-full hover:bg-blue-400 hover:-translate-y-px px-5 bg-slate-200 font-bold text-gray-600 ${activeCard === 'model'&& 'text-white bg-linear-to-r from-[#9514FA] to-[#4F39F6]'}`} 
                 aria-label="Products" 
                 onClick={()=> setActiveCard('model')}
                 defaultChecked/>
 
                 <input type="radio" 
                 name="my_tabs_1" 
-                className={`tab rounded-full px-5 bg-slate-200 font-bold text-gray-600 ${activeCard === 'carts'&& 'text-white bg-linear-to-r from-[#9514FA] to-[#4F39F6]'}`} 
+                className={`tab rounded-full hover:bg-blue-400 hover:-translate-y-px px-5 bg-slate-200 font-bold text-gray-600 ${activeCard === 'carts'&& 'text-white bg-linear-to-r from-[#9514FA] to-[#4F39F6]'}`} 
                 aria-label={`Carts(${carts.length})`} 
                 onClick={()=> setActiveCard('carts')}
                  />

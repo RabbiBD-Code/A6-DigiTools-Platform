@@ -1,5 +1,5 @@
-import React from 'react';
-
+// import React from 'react';
+import icon from "../../../src/assets/products/portfolio.png"
 const Footer = () => {
     return (
         <div className='bg-black mb-20'>
@@ -33,9 +33,9 @@ const Footer = () => {
                     <nav>
                         <h6 className="footer-title">Sociak Link</h6>
                         <div className='flex gap-2'>
-                            <span className='w-10 h-10 flex justify-center items-center rounded-full bg-white'><img src="/Instagram.png" alt="" /></span>
-                            <span className='w-10 h-10 flex justify-center items-center rounded-full bg-white'><img src="/Facebook.png" alt="" /></span>
-                            <span className='w-10 h-10 flex justify-center items-center rounded-full bg-white'><img src="/fi_5968958.png" alt="" /></span>
+                            <span className='w-10 h-10 flex justify-center items-center rounded-full bg-white'><img src="/src/assets/Instagram.png" alt="" /></span>
+                            <span className='w-10 h-10 flex justify-center items-center rounded-full bg-white'><img src="/src/assets/Facebook.png" alt="" /></span>
+                            <span className='w-10 h-10 flex justify-center items-center rounded-full bg-white'><img src={icon} alt="" /></span>
                         </div>
                     </nav>
                 </footer>

@@ -20,7 +20,7 @@ const Carts = ({ carts, setCarts }) => {
 
     return (
         <div>
-            <div className='w-11/12 mx-auto border-2 border-gray-200 px-10 py-8 rounded-2xl my-10'>
+            <div className='w-9/12 mx-auto border border-gray-200 px-10 py-8 rounded-2xl my-10'>
                 <p className='font-bold text-xl mb-5'>Your Cart</p>
                 {
                     carts.length === 0 ? (<p className="text-center text-2xl p-5">Cart is empty</p>) :
@@ -28,11 +28,11 @@ const Carts = ({ carts, setCarts }) => {
                             <>
                                 {
                                     carts.map(cart =>
-                                        <div className='border-2 border-amber-50 rounded-2xl mb-6 bg-gray-200' key={cart.id}>
+                                        <div className='border border-gray-600/50 rounded-xl mb-6 bg-gray-50' key={cart.id}>
 
                                             <div className='flex justify-between items-center p-5'>
                                                 <div className='flex items-center gap-2'>
-                                                    <div className='rounded-full bg-amber-500 overflow-hidden'>
+                                                    <div className='rounded-full overflow-hidden'>
                                                         <img className='w-10 h-10' src={cart.img} alt="" />
                                                     </div>
                                                     <div>

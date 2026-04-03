@@ -1,6 +1,7 @@
 import React from 'react';
 import Carts from '../Carts/Carts';
 
+
 const Navbar = ({carts}) => {
     console.log(carts.length)
     return (
@@ -34,7 +35,7 @@ const Navbar = ({carts}) => {
                 </div>
                 <div className="navbar-end flex gap-4">
                     <div className='relative'>
-                        <img src="/src/assets/products/shopping-cart.png" alt="" />
+                        <img src="shopping-cart.png" alt="cart" />
                         <div className='text-white text-sm font-semibold  absolute -top-4 left-3 '>
                             <p className={`${carts.length ? 'bg-red-700 w-5 h-5 rounded-full flex items-center justify-center ' : 'hidden'}`}>{carts.length}</p>
                         </div>

@@ -19,7 +19,7 @@ const handleCards = () =>{
 
     return (
         <div className=''>
-            <div className='border-2 flex flex-col h-full rounded-2xl p-4 space-y-2 border-gray-300 relative'>
+            <div className='border flex flex-col h-full hover:-translate-y-2 rounded-2xl p-4 space-y-2 border-gray-300 relative'>
                 <div className='border border-gray-100 rounded-full w-15 h-15'>
                     <img className='w-15 h-15 rounded-full p-2' src={img}  alt="" />
                 </div>
